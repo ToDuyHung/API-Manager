@@ -49,7 +49,7 @@ Start service and read documentations at http://localhost:8080/docs
 1. General documentation interface
 
 <p align="center">
-  <img style="width:75%" align="center" src="demo_image/api_interface.png" />
+  <img style="width:90%" align="center" src="demo_image/api_interface.png" />
 </p>
 <p align="center">
   <b>Figure 1:</b> General API CURD Interface
@@ -58,14 +58,14 @@ Start service and read documentations at http://localhost:8080/docs
 2. Get all schemas of specific class
 
 <p align="center">
-  <img style="width:75%" align="center" src="demo_image/get_all.png" />
+  <img style="width:90%" align="center" src="demo_image/get_all.png" />
 </p>
 <p align="center">
   <b>Figure 2.1:</b> Get all schemas by storage_id and class name
 </p>
 
 <p align="center">
-  <img style="width:75%" align="center" src="demo_image/response_get_all.png" />
+  <img style="width:90%" align="center" src="demo_image/response_get_all.png" />
 </p>
 <p align="center">
   <b>Figure 2.2:</b> Response get all schemas by storage_id and class name
@@ -74,14 +74,14 @@ Start service and read documentations at http://localhost:8080/docs
 3. Insert schema
 
 <p align="center">
-  <img style="width:75%" align="center" src="demo_image/insert.png" />
+  <img style="width:90%" align="center" src="demo_image/insert.png" />
 </p>
 <p align="center">
   <b>Figure 3.1:</b> Insert schema with storage_id, class name, parent class and required questions
 </p>
 
 <p align="center">
-  <img style="width:75%" align="center" src="demo_image/response_insert.png" />
+  <img style="width:90%" align="center" src="demo_image/response_insert.png" />
 </p>
 <p align="center">
   <b>Figure 3.2:</b> Response insert schema
@@ -90,14 +90,14 @@ Start service and read documentations at http://localhost:8080/docs
 4. Update existing schema
 
 <p align="center">
-  <img style="width:75%" align="center" src="demo_image/update.png" />
+  <img style="width:90%" align="center" src="demo_image/update.png" />
 </p>
 <p align="center">
   <b>Figure 4.1:</b> Update existing schema with storage_id, class name, parent class and required questions
 </p>
 
 <p align="center">
-  <img style="width:75%" align="center" src="demo_image/response_update.png" />
+  <img style="width:90%" align="center" src="demo_image/response_update.png" />
 </p>
 <p align="center">
   <b>Figure 4.2:</b> Response update schema
@@ -106,14 +106,14 @@ Start service and read documentations at http://localhost:8080/docs
 5. Delete schema
 
 <p align="center">
-  <img style="width:75%" align="center" src="demo_image/delete.png" />
+  <img style="width:90%" align="center" src="demo_image/delete.png" />
 </p>
 <p align="center">
   <b>Figure 5.1:</b> Delete schema by storage_id, class name and parent class
 </p>
 
 <p align="center">
-  <img style="width:75%" align="center" src="demo_image/response_delete.png" />
+  <img style="width:90%" align="center" src="demo_image/response_delete.png" />
 </p>
 <p align="center">
   <b>Figure 5.2:</b> Response delete schema by storage_id, class name and parent class

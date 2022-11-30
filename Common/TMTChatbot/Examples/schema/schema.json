@@ -1,0 +1,78 @@
+[
+  {
+    "class": "User",
+    "required_attributes": [
+      "name",
+      "phone_number"
+    ],
+    "attributes": [
+      "favorite_colors",
+      "height",
+      "weight",
+      "age",
+      "gender",
+      "address",
+      "history_products"
+    ],
+    "relations": [
+      "contact"
+    ]
+  },
+  {
+    "class": "Shop",
+    "required_attributes": [
+      "name",
+      "phone_number"
+    ],
+    "attributes": [
+      "address",
+      "policy",
+      "return_policy",
+      "ship_type",
+      "ship_fee",
+      "ship_time",
+      "bank_account"
+    ],
+    "relations": []
+  },
+  {
+    "class": "Product",
+    "parent_class": "Shirt",
+    "required_attributes": [
+      "size"
+    ],
+    "attributes": [
+      "size",
+      "colors",
+      "materials"
+    ],
+    "relations": []
+  },
+  {
+    "class": "Product",
+    "parent_class": "Jean",
+    "required_attributes": [
+      "size"
+    ],
+    "attributes": [
+      "size",
+      "colors",
+      "materials"
+    ],
+    "relations": []
+  },
+  {
+    "class": "Product",
+    "parent_class": "Hat",
+    "required_attributes": [
+      "size",
+      "colors"
+    ],
+    "attributes": [
+      "size",
+      "colors",
+      "materials"
+    ],
+    "relations": []
+  }
+]

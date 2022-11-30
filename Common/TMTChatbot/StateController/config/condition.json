@@ -1,0 +1,60 @@
+{
+    "State": {
+        "1": [
+            "Introduction",
+            [
+                "User@hello",
+                "User@update_name",
+                "User@other",
+                "User@update_gender"
+            ]
+        ],
+        "2": [
+            "AcquiredProduct",
+            []
+        ],
+        "3": [
+            "CustomDemand",
+            [
+                "User@ask_information"
+            ]
+        ],
+        "4": [
+            "Consultant1",
+            [
+                "User@need_advice",
+                "User@other"
+            ]
+        ],
+        "5": [
+            "Billing",
+            [
+                "User@thanks",
+                "User@yes",
+                "User@wrong",
+                "User@other"
+            ]
+        ],
+        "6": "Summary",
+        "7": "Checking"
+    },
+    "Condition": {
+        "1": [
+            "PERSON",
+            "gender"
+        ],
+        "2": [],
+        "3": [],
+        "4": [
+            "weight",
+            "height",
+            "QUANTITY"
+        ],
+        "5": [
+            "phone",
+            "ADDRESS",
+            "LOC",
+            "GPE"
+        ]
+    }
+}

@@ -1,0 +1,94 @@
+{
+  "VqaSchema": [
+    {
+      "endpoint": "/vqa_schema/{storage_id}",
+      "func": "get_all_schemas",
+      "methods": [
+        "GET"
+      ],
+      "description": "Get all schemas of specific class",
+      "use_thread": false,
+      "use_async": false,
+      "request_data_model": "data_model.GetSchemaRequest",
+      "response_data_model": "data_model.SchemaResponse",
+      "tags": [
+        "VqaSchema"
+      ]
+    },
+    {
+      "endpoint": "/vqa_schema/{storage_id}/{class}",
+      "func": "get_schema",
+      "methods": [
+        "GET"
+      ],
+      "description": "Get specific first schema",
+      "use_thread": false,
+      "use_async": false,
+      "request_data_model": "data_model.GetSchemaRequest",
+      "response_data_model": "data_model.SchemaResponse",
+      "tags": [
+        "VqaSchema"
+      ]
+    },
+    {
+      "endpoint": "/vqa_schema/{storage_id}/{class}/{parent_class}",
+      "func": "get_schema",
+      "methods": [
+        "GET"
+      ],
+      "description": "Get specific schema with parent class",
+      "use_thread": false,
+      "use_async": false,
+      "request_data_model": "data_model.GetSchemaWithParentRequest",
+      "response_data_model": "data_model.SchemaResponse",
+      "tags": [
+        "VqaSchema"
+      ]
+    },
+    {
+      "endpoint": "/vqa_schema/{storage_id}",
+      "func": "insert_vqa_schema",
+      "methods": [
+        "POST"
+      ],
+      "description": "Insert new vqa schema into storage",
+      "use_thread": false,
+      "use_async": false,
+      "request_data_model": "data_model.VqaSchemaRequest",
+      "response_data_model": "data_model.SchemaResponse",
+      "tags": [
+        "VqaSchema"
+      ]
+    },
+    {
+      "endpoint": "/vqa_schema/{storage_id}",
+      "func": "update_vqa_schema",
+      "methods": [
+        "PUT"
+      ],
+      "description": "Update existing vqa schema",
+      "use_thread": false,
+      "use_async": false,
+      "request_data_model": "data_model.VqaSchemaRequest",
+      "response_data_model": "data_model.SchemaResponse",
+      "tags": [
+        "VqaSchema"
+      ]
+    },
+    {
+      "endpoint": "/vqa_schema/{storage_id}/{class_}/{parent_class}",
+      "func": "delete_vqa_schema",
+      "methods": [
+        "DELETE"
+      ],
+      "description": "Delete vqa schema",
+      "use_thread": false,
+      "use_async": false,
+      "request_data_model": "data_model.DeleteSchemeData",
+      "response_data_model": "data_model.SchemaResponse",
+      "tags": [
+        "VqaSchema"
+      ]
+    }
+  ]
+}

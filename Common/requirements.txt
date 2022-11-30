@@ -1,0 +1,15 @@
+websocket-client==0.56.0
+kafka-python==2.0.2
+pydantic==1.8.2
+fastapi>=0.78.0
+nltk==3.7
+pymongo~=4.1.1
+setuptools~=61.2.0
+stomper~=0.4.3
+uvicorn~=0.18.2
+rank_bm25
+requests
+fastapi_health
+cached-property
+python-dateutil
+aiohttp
